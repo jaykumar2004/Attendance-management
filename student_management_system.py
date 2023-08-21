@@ -69,7 +69,7 @@ def main():
                 period_choice = int(input("Select a period (1-6): "))-1  #adjust for 0-based indexing
                 if 0 <= period_choice < len(periods):
                     mark_attendance(student_id, subject, periods[period_choice], "Present")
-                    print("Attendance marked as 'Presen' for the subject and period.")
+                    print("Attendance marked as 'Present' for the subject and period.")
                 else:
                     print("Invalid period choice.")
             else:
